@@ -23,7 +23,7 @@ namespace WindowsFormsApplication1
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            notifyIcon1.Text = "dddjh";
+            notifyIcon1.Text = "ddd";
             ShowText("1", new Font("Tahoma", 10, FontStyle.Regular), Color.Black);
             backgroundWorker1.RunWorkerAsync();
             backgroundWorker2.RunWorkerAsync();
